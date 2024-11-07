@@ -4,10 +4,10 @@ interface Props{
     className?:string;
 }
 
-export const Popular:React.FC<Props> = ({className}) => {
+export const NewItems:React.FC<Props> =({className}) => {
     return (
         <div className="px-[120px]">
-            <h2 className="text-[#0071E4] font-medium text-[24px]">Самое популярное</h2>
+            <h2 className="text-[#0071E4] font-medium text-[24px] mb-6">Новинки</h2>
 
             <div className="flex gap-6 justify-between flex-row flex-wrap items-center">
                 <Card/>
