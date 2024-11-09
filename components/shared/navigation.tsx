@@ -17,9 +17,13 @@ export const Navigation:React.FC<Props> = ({className}) => {
             <Link href="/credit">
                 <h2>Кредит</h2>
             </Link>
-            <h2>Доставка и оплата</h2>
+            <Link href="/delivery">
+                <h2>Доставка и оплата</h2>
+            </Link>
             <h2>Отзывы</h2>
-            <h2>Контакты</h2>
+            <Link href="/contacts">
+                <h2>Контакты</h2>
+            </Link>
         </div>
     )
 }

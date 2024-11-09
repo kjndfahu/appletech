@@ -6,7 +6,7 @@ interface Props{
 
 export const SearchField:React.FC<Props> = ({className}) => {
     return (
-        <div className="flex border-[1px] items-center px-6 py-4 border-[#B7B7B7] rounded-[20px] relative w-[800px] h-14">
+        <div className="flex border-[1px] items-center px-6 py-4 border-[#B7B7B7] rounded-[8px] relative w-[70%] h-14">
             <Search color="#B7B7B7"/>
             <input className="outline-none w-full px-6 text-black"
                    type="text"
